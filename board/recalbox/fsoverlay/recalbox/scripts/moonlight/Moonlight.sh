@@ -4,7 +4,7 @@
 #cd /recalbox/share/roms/moonlight/
 moonlight_dir=/recalbox/scripts/moonlight
 moonlight_romsdir=/recalbox/share/roms/moonlight
-moonlight_ip=192.168.111.35
+moonlight_ip=
 moonlight_screen="720"
 moonlight_fps="60fps"
 moonlight_mapping="$moonlight_dir/mapping.conf"
