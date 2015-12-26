@@ -59,7 +59,7 @@ scrape () {
   do
     # Get the real game name, not the moonlight link + prepare xml game data
     moonlightfilename=$(echo $line | cut -d ';' -f 1)
-    xmlfilename=${moonlightfilename}.xml
+    xmlfilename=/tmp/${moonlightfilename}.xml
     gamename=$(echo $line | cut -d ';' -f 2)
 
     # download XML game data from TheGamesDB.net
